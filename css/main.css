@@ -1,0 +1,1207 @@
+/*FONTS*/
+@font-face {
+	font-family: 'RechargeB';
+	src: local("RechargeRg-Bold"), url("../fonts/Rechargebd.ttf") format("truetype");
+	font-style: normal; }
+
+@font-face {
+	font-family: 'PlayfairDR';
+	src: local("PlayfairDisplaySC-Regular"), url("../fonts/PlayfairDisplaySC-Regular.ttf") format("truetype");
+	font-style: normal; }
+
+@font-face {
+	font-family: 'SintonyR';
+	src: local("Sintony-Regular"), url("../fonts/Sintony-Regular.ttf") format("truetype");
+	font-style: normal; }
+
+@font-face {
+	font-family: 'FridayNL';
+	src: local("Friday Night Lights"), url("../fonts/FridayNightLights.ttf") format("truetype");
+	font-style: normal; }
+
+/*INDEX*/
+body {
+	padding: 0;
+	margin: 0; }
+
+div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.main-header {
+	background: #333;
+	height: 90px; }
+
+.icon-menu {
+	display: none;
+	background: url('../img/ic_menu.png') no-repeat;
+	background-size: 35px; }
+
+.logo {
+	max-width: 100%;
+	height: auto;
+	margin-top: 8px;
+	float: left;
+	padding: 0px; }
+
+.menu {
+	padding: 0px;
+	margin-top: 25px;
+	z-index: 100; }
+
+.first-menu-element{
+	list-style-type: none;
+	background-color: #444;
+	padding-left: 55px;
+	border-bottom-left-radius: 70px 55px;}
+	.first-menu-element:hover {background-color: #111;}
+	
+ul {
+	list-style-type: none;
+	/*/*background-color: #333;        Shop на банере  на кнопках полоска*/
+	}
+
+li {float: left;}
+
+.dropbtn {
+	display: inline-block;
+	background-color: #444;
+	color: white;
+	padding: 14px 10px;
+	font-family: "RechargeB";
+	font-size: 11px;
+	text-transform: uppercase;
+	border: none; }
+	.dropbtn:hover {
+		color: white;
+		text-decoration: none;}
+
+li, .dropdown {display: inline-block;}
+
+.dropdown {position: relative; }
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1; }
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: arial;
+	font-weight: 700; }
+	.dropdown-content a:hover {background-color: #444;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+li a:hover, .dropdown:hover {background-color: #111;}
+
+.action {float: left;}
+
+#search {
+	display: inline-block;
+	margin: 32px 0px;
+	padding: 0px;
+	float: right; }
+
+#search input[type="text"] {
+	width: 65%;
+	padding: 4px 0px 4px 0px;
+	font-family: "PlayfairDR";
+	font-size: 11px;
+	float: left;
+	margin-right: 10px; }
+
+.icon-bar {
+	display: inline-block;
+	height: 36px;
+	width: 42px;
+	margin-top: -4px; }
+
+#ic1 {background: url('../img/icon_entrance.png') no-repeat center;}
+#ic1:hover {background-color: #111;}
+
+#ic2 {background: url('../img/icon_check_in.png') no-repeat center;}
+#ic2:hover {background-color: #111;}
+
+.sport {
+	font-family: 'FridayNL';
+	font-size: 72px;
+	float: right; }
+
+.sub-head {padding: 0px;}
+
+.banner {
+	background: url('../img/banner.jpg') no-repeat center;
+	height: 550px; }
+	.banner h1 {
+		padding-top: 100px;
+		padding-left: 400px;
+		font-family: "RechargeB";
+		font-size: 25px;
+		color: #fff; }
+
+.press {
+	background-color: #cc0000;
+	border: none; 
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	margin: 0px 490px;
+	font-family: "PlayfairDR";
+	font-size: 9px;
+	text-transform: uppercase;
+	color: #fff;
+	cursor: pointer; }
+
+.special-title {
+	padding-top: 20px;
+	font-family: "RechargeB";
+	font-size: 36px;
+	color: #444;
+	text-align: center; }
+
+.exercise {
+	text-align: center;
+	box-shadow: 0 20px 90px rgba(0,0,0,0.15);
+	margin-bottom: 40px;
+	margin-top: 20px;
+	float: left; }
+
+.exercise__img {margin-bottom: 25px;}
+
+.exercise__desc {
+	height: 125px;
+	font-family: "SintonyR";
+	font-size: 14px;
+	padding-bottom: 50px; }
+
+span {margin-bottom: 240px;}
+
+.btn {
+	background-color: #fff;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "PlayfairDR";
+	font-color: #fff;
+	font-weight: 700;
+	font-size: 26px;
+	padding-bottom: 10px; }
+	.btn:hover {font-size: 30px;}
+
+.food {
+	background: url('../img/nutrition_background.jpeg') no-repeat center;
+	height: 400px;
+	padding-left: 0px;
+	padding-right: 0px; }
+	.food h2 {
+		padding-top: 100px;
+		font-family: "RechargeB";
+		font-size: 36px;
+		color: white;
+		text-align: center; }
+
+.container {position: relative;}
+
+.nutrition {
+	position: relative;
+	margin-top: -200px; }
+
+.nutrition-eat {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 30px; } 
+
+.food-text h2 {
+	padding-top: 150px;
+	font-family: "RechargeB";
+	font-size: 28px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase; }
+
+.nutrition-btn {
+	width: 317px;
+	height: 317px;
+	cursor: pointer; }
+
+.diet-btn {background: url('../img/diet1.png') no-repeat;}
+	.diet-btn:hover {background: url('../img/diet2.png') no-repeat;}
+
+.recipes-btn {background: url('../img/recipes1.png') no-repeat;}
+	.recipes-btn:hover {background: url('../img/recipes2.png') no-repeat;}
+
+.vitamins-btn {background: url('../img/vitamins1.png') no-repeat;}
+	.vitamins-btn:hover {background: url('../img/vitamins2.png') no-repeat;}
+
+.supplements-btn {background: url('../img/supplements1.png') no-repeat;}
+	.supplements-btn:hover {background: url('../img/supplements2.png') no-repeat;}
+
+.calorie-btn {background: url('../img/calorie_table1.png') no-repeat;}
+	.calorie-btn:hover {background: url('../img/calorie_table2.png') no-repeat;}
+
+.glycemic-btn {background: url('../img/table_glycemic1.png') no-repeat;}
+	.glycemic-btn:hover {background: url('../img/table_glycemic2.png') no-repeat;}
+
+.footer {
+	background: #333;
+	color: #fff;
+	font-size: 12px;
+	padding: 40px 70px; }
+
+.weight {
+	background: url('../img/ganteli.png') no-repeat;
+	height: 166px;
+	width: 281px; }
+
+.shopping {
+	background: url('../img/shopping.png') no-repeat;
+	height: 256px;
+	width: 256px;
+	margin-left: 50px; }
+
+.maps {margin-left: 12px;}
+
+.contact .help .shipping {
+	display: inline;
+	font-family: "PlayfairDR";
+	color: #fff; }
+	.contact h1, .help h1, .shipping h1 {
+		font-weight: 700;
+		font-size: 12px;
+		text-transform: uppercase;
+		white-space: nowrap; }
+	.contact a, .help a, .shipping a {
+		color: white;
+		font-size: 12px;
+		white-space: nowrap; }
+	.contact a:hover, .help a:hover, .shipping a:hover {color: blue;}
+	.help {padding-left: 40px;}
+
+.socials {
+	padding: 0px;
+	list-style-type: none; }
+
+.socials__item a {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	border-style: solid;
+	display: block; }
+
+.socials__item_yt a {
+	background: #333333 url('../img/yt.png') no-repeat center center;
+	border-color: #993333; }
+	.socials__item_yt a:hover {background: #993333 url('../img/yt.png') no-repeat center center;}
+
+.socials__item_tw a {
+	background: #333333 url('../img/tw.png') no-repeat center center;
+	border-color: #55acee;
+	margin: 0 9px; }
+	.socials__item_tw a:hover {
+		background: #55acee url('../img/tw.png') no-repeat center center;
+		margin: 0 9px; }
+
+.socials__item_g a {
+	background: #333333 url('../img/g.png') no-repeat center center;
+	border-color: #dd4b39; }
+	.socials__item_g a:hover {background: #dd4b39 url('../img/g.png') no-repeat center center;}
+
+.socials__item_fb a {
+	background: #333333 url('../img/fb.png') no-repeat center center;
+	border-color: #3b5998;
+	margin: 0 9px; }
+	.socials__item_fb a:hover {
+		background: #3b5998 url('../img/fb.png') no-repeat center center;
+		margin: 0 9px; }
+
+.line {
+	background: #52535e;
+	height: 1px;
+	margin: 58px 20px 0px 20px; }
+
+.credits {
+	margin-top: 43px;
+	text-align: center; }
+
+/***** MEDIA max-width: 1199px INDEX*****/
+@media screen and (max-width: 1199px) {
+	.main-header {height: 80px;}
+	.logo {
+		height: 50px;
+		margin-top: 15px;
+		padding: 0px; }
+	.menu {margin-top: 21px;}
+	.dropbtn {
+		padding: 10px 6px;
+		font-size: 10px; }
+	.first-menu-element {padding-left: 40px;}
+	.dropdown-content a {
+		padding: 8px 10px;
+		font-weight: 600; }
+	#search {margin-top: 26px;}
+	.icon-bar {
+		height: 30px;
+		width: 34px;
+		margin-top: -1px; }
+	.sport {
+		font-size: 50px;
+		margin-top: 7px; }
+	.banner {
+		height: 480px; }
+	.banner h1 {
+		font-size: 18px;
+		padding-left: 220px; }
+	.press{
+		margin: 0px 270px;
+		font-size: 8px; }
+	.special-title {
+		padding-top: 10px;
+		font-size: 30px; }
+	.exercise {
+		margin-bottom: 20px;
+		margin-top: 5px; }
+	.exercise__img {margin-bottom: 5px;}
+	.btn {
+		padding-bottom: 5px;
+		font-size: 20px; }
+	.btn:hover {font-size: 24px;}
+	.exercise__desc {
+		height: 115px;
+		font-size: 12px; }
+	.carousel-control-prev-icon,
+	.carousel-control-next-icon {margin-bottom: 200px;}
+	.food {
+		height: 300px;
+		padding-left: 0px;
+		padding-right: 0px; }
+	.nutrition {margin-top: -120px;}
+	.food h2 {font-size: 30px;}
+	.nutrition-btn {
+		background-size: 95%;
+		left: 2%;
+		height: 250px; }
+		.nutrition-btn:hover {background-size: 95%;}
+	.food-text h2 {
+		padding-top: 110px;
+		font-size: 18px; }
+	.footer {padding: 50px 50px;}
+	.help {padding-left: 60px;} }
+
+/***** MEDIA max-width: 1100px INDEX*****/
+@media screen and (max-width: 1100px) {
+	.footer {padding: 50px 40px;} }
+
+/***** MEDIA max-width: 1000px INDEX*****/
+@media screen and (max-width: 1000px) {
+	.main-header {height: 70px;}
+	.menu {
+		margin-top: 18px;
+		padding: 0px; }
+	.logo {
+		height: 50px;
+		margin-top: 10px; }
+	.first-menu-element{
+		padding-left: 25px;
+		border-bottom-left-radius: 50px 56px; }
+	.dropbtn {
+		padding: 9px 6px;
+		font-family: "RechargeB";
+		font-size: 10px;
+		text-transform: none; }
+	.dropdown-content {
+		min-width: 120px; }
+	.dropdown-content a {
+		padding: 8px 12px;
+		font-size: 11px;
+		text-decoration: none;
+		font-weight: 600; }
+	#search {margin: 22px 0px; }
+	#search input[type="text"] {
+		width: 65%;
+		font-size: 9px;
+		margin-right: 5px; }
+	.icon-bar {width: 25px;}
+	#ic1, #ic2 {background-size: 15px;}
+	.sport {font-size: 35px;}
+	.banner {height: 410px; }
+		.banner h1 {
+			padding-left: 200px;
+			font-size: 16px; }
+	.press {
+		padding: 10px;
+		border-radius: 10px;
+		margin: 0px 240px;
+		text-transform: none;
+		font-size: 10px;
+		cursor: pointer; }
+	.special-title {
+		padding-top: 12px;
+		font-size: 20px; }
+	.btn {
+		font-size: 16px;
+		padding-bottom: 8px; }
+		.btn:hover {font-size: 20px;}
+	.food h2 {font-size: 28px;}
+	.exercise__desc {
+		font-size: 12px;
+		height: 150px; }
+	.nutrition-btn {height: 200px;}
+	.food-text h2 {
+		padding-top: 80px;
+		font-size: 14px; }
+	.footer {padding: 50px 40px;}
+	.weight {display: none;}
+	.contact {padding-left: 60px;}
+	.help {padding-left: 190px;}
+	.shipping {padding-left: 200px;} }
+	
+/***** MEDIA max-width: 768px INDEX*****/
+@media screen and (max-width: 768px) {
+	body {margin: 0;}
+	.main-header {
+		height: 60px;
+		overflow: hidden;}
+	.icon-menu {
+		display: block;
+		background: url('../img/ic_menu.png') no-repeat;
+		background-size: 30px; 
+		width: 25px;
+		margin: 15px 0px 0px 0px; }
+	.sidenav {
+		display: none;
+		list-style-type: none;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		width: 25%;
+		background-color: #c4c0c0;
+		position: fixed;
+		height: 400px;
+		overflow: hidden;
+		z-index: 9999; }
+	.sidenav a {
+		display: block;
+		margin: 0;
+		color: #000;
+		padding: 10px 110px 10px 60px;
+		text-decoration: none; }
+	.logo {
+		height: 40px;
+		margin: 10px 0px; 
+		padding: 0px;}
+	.first-menu-element{
+		padding-left: 0px;
+		border-bottom-left-radius: 0px 0px;}
+		.first-menu-element:hover {background-color: transparent;}
+	.dropbtn {
+		display: block;
+		background-color: #c4c0c0;
+		font-size: 10px; }
+	.dropdown-content {
+		position: relative;
+		margin-left: 10px;
+		min-width: 130px; }
+	.dropdown-content a {padding: 8px 8px;}
+	.menu {display: none;}
+	#search {
+		margin-left: 50%;
+		margin-top: 18px;}
+	#search input[type="text"] {
+		width: 58%;
+		margin-right: 2px; }
+	.icon-bar {margin: -2px 0px;}
+	.sport {font-size: 25px;}
+	.banner {
+		height: 380px; }
+		.banner h1 {
+			padding-left: 200px;
+			font-size: 14px; }
+	.press {
+		padding: 9px;
+		margin: 0px 210px;
+		font-size: 9px; }
+	.special-title {
+		padding-top: 10px;
+		font-size: 18px; }
+	.btn {
+		font-size: 14px;
+		padding-bottom: 5px; }
+		.btn:hover {font-size: 18px;}
+	.exercise__desc {
+		font-size: 10px;
+		height: 150px; }
+	.food {height: 250px;}
+	.nutrition {margin-top: -80px;}
+	.food h2 {font-size: 22px;}
+	.nutrition-btn {
+		height: 150px;
+		width: 150px; }
+	.food-text h2 {
+		padding-top: 60px;
+		font-size: 12px;
+		padding-right: 6%; }
+	.contact a, .help a, .shipping a {font-size: 11px;}
+	.socials__item a {
+		width: 42px;
+		height: 42px; }
+	.credits {margin-top: 33px;}
+	.active {display: block;}
+	.contact {padding-left: 0px;}
+	.help {padding-left: 120px;}
+	.shipping {padding-left: 170px;}
+	.line {display: none;} }
+
+/***** MEDIA max-width: 700px INDEX*****/
+@media screen and (max-width: 700px) {
+	.contact {padding-left: 0px;}
+	.help {padding-left: 150px;} }
+
+/***** MEDIA (max-width: 580px) and (min-width: 320px) INDEX*****/
+@media screen and (max-width: 580px) and (min-width: 320px) {
+	.logo { 
+		height: 35px;
+		margin: 10px 0px 0px 0px; }
+	#search input[type="text"] {display: none;}
+	.sidenav {width: 35%;}
+	.banner {height: 230px;}
+	.banner h1 {
+		font-size: 12px;
+		padding-left: 100px; }
+	.press {margin: 0px 100px;}
+	.exercise__desc {display: none;}
+	.carousel-control-prev-icon, 
+	.carousel-control-next-icon {margin-bottom: 50px;} 
+	.food {height: 200px;}
+	.food h2 {
+		font-size: 18px;
+		padding-top: 75px; }
+	.nutrition-btn {
+		height: 140px;
+		width: 140px; }
+	.nutrition {margin-top: -50px;}
+	.nutrition-eat {margin-bottom: 0px;}
+	.food-text h2 {
+		padding-top: 50px;
+		font-size: 10px;
+		padding-right: 0%; }
+	.footer {
+		font-size: 10px;
+		padding: 20px 15px; }
+	.contact,
+	.help,
+	.shipping {display: none;}
+	.credits {margin-top: 10px;} }
+
+/*SHOP*/
+.phone {
+	margin-top: 10px;
+	font-family: "RechargeB";
+	font-size: 11px;
+	margin-left: 268%;
+	white-space: nowrap; }
+
+.slider-main {margin: 0!important;}
+
+.slider-main li img {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 10px;}
+
+.slider li {float: none;}
+
+.categories {margin-left: 15%;}
+
+.catalog h2 {
+	font-family: "RechargeB";
+	font-size: 26px;
+	font-weight: 700;
+	margin-top: 10px; }
+
+.shop h5 {
+	font-family: "PlayfairDR";
+	font-size: 19px;
+	color: #919191;
+	margin-top: 30px; }
+
+.shop a {
+	display: block;
+	font-family: "PlayfairDR";
+	font-size: 16px;
+	color: #444;
+	cursor: pointer;
+	text-decoration: none; }
+	.shop a:hover {color: blue;}
+
+.supplements-text {
+	font-family: "RechargeB";
+	font-size: 26px;
+	font-weight: 700;
+	margin-top: 20px; }
+
+.sim-button{
+	background: #999;
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	margin-top: 5px;
+	cursor: pointer; }
+
+.menu-button {
+	color: rgba(255,255,255,1);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	position: relative;
+	border: 1px solid rgba(255,255,255,0.5);
+	overflow: hidden; }
+	.menu-button a{
+		color: rgba(51,51,51,1);
+		text-decoration: none;
+		display: block; }
+	.menu-button span {
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s; }
+	.menu-button:hover{background-color: rgba(255,255,255,0.2);}
+	.menu-button:hover > span{
+		opacity: 0;
+		-webkit-transform: translate(0px,40px);
+		transform: translate(0px,40px); }
+	.menu-button::after{
+		content: attr(data-text);
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		-webkit-transform: translate(-30%, 0);
+		transform: translate(-30%, 0);
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s; }
+	.menu-button:hover::after{
+		background: #333;
+		opacity: 1;
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0); }
+
+.caption {
+	font-family: "PlayfairDR";
+	font-size: 19px;
+	color: #666;
+	text-decoration: none;
+	margin-top: 18px; }
+
+.caption-item {
+	font-family: "PlayfairDR";
+	font-size: 19px;
+	color: #666;
+	text-decoration: none;
+	margin-top: 50px;
+	margin-left: 150px; }
+
+.supplements {
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	float: left;
+	display: block;
+	font-family: "PlayfairDR";
+	font-size: 11px;
+	color: #111;
+	cursor: pointer;
+	text-decoration: none;
+	padding-top: 20px; }
+
+.suppmar {margin-left: 55px;}
+
+.bloc {
+	float: left;
+	margin-left: 100px; }
+
+.supplements__img {
+	/*margin-bottom: 25px;*/
+	height: 120px;
+	width: auto; }
+
+.shop-carousel-control-prev-icon,
+.shop-carousel-control-next-icon {
+	height: 100px;
+	width: 100px;
+	background-image: none;
+	margin-top: 190px; }
+	.shop-carousel-control-next-icon:after {
+		content: '>';
+		font-size: 75px;
+		color: black; }
+	.shop-carousel-control-prev-icon:after {
+		content: '<';
+		font-size: 75px;
+	 	color: black; }
+
+.supplements__desc {
+	text-align: center;
+	font-family: "PlayfairDR";
+	font-size: 11px;
+	color: #111;
+	cursor: pointer;
+	text-decoration: none; }
+
+.banner_jym {
+	background: url('../img/banner_jym.jpg') no-repeat center;
+	background-size: cover;
+	background-position: center center;
+	height: 1100px; }
+	.banner_jym button {
+		margin-top: 800px;
+		float: right;
+		margin-right: 34%;
+		cursor: pointer; }
+
+.bloc1 {
+	float: left;
+	margin-left: 140px; }
+
+.brands {
+	margin-bottom: 25px;
+	height: 40px;
+	width: auto; }
+
+.icons {
+	margin-top: 100px;
+	margin-bottom: 10px;}
+
+.bloc2 {
+	float: left;
+	margin-left: 30%; }
+
+/***** MEDIA max-width: 1199px SHOP*****/
+@media screen and (max-width: 1199px) {
+	.suppmar {
+		padding: 0px;
+		margin-left: 45px; }
+	.shop-carousel-control-prev-icon,
+	.shop-carousel-control-next-icon {
+		height: 70px;
+		width: 70px; }
+	.shop-carousel-control-next-icon:after,
+	.shop-carousel-control-prev-icon:after {font-size: 55px;} }
+	.banner_jym {height: 1100px;}
+	.banner_jym button {margin-right: 36%;}
+
+/***** MEDIA max-width: 1100px SHOP*****/
+@media screen and (max-width: 1100px) {
+	.banner_jym {height: 600px;}
+	.banner_jym button {margin-top: 450px; } }
+
+/***** MEDIA max-width: 1000px SHOP*****/
+@media screen and (max-width: 1000px) {
+	.catalog h2,
+	.supplements-text {font-size: 20px;}
+	.shop h5 {
+		margin-top: 10px;
+		font-size: 16px; }
+	.shop a {font-size: 13px;}
+	.supplements {
+		margin-bottom: 10px;
+		padding: 0px; }
+	.suppmar {margin-left: 35px;}
+	.supplements__img {height: 100px;}
+	.sim-button {font-size: 12px;}
+	.banner_jym {height: 550px;}
+	.banner_jym button {
+		margin-top: 400px;
+		margin-right: 35%; }
+	.bloc1 {margin-left: 110px;} }
+
+/***** MEDIA max-width: 768px SHOP*****/
+@media screen and (max-width: 768px) {
+	.shop h5 {font-size: 12px;}
+	.supplements__img {height:70px;}
+	.supplements {
+		margin-top: 0px;
+		margin-bottom: 0px; }
+	.sim-button {font-size: 14px;}
+	.caption {margin-left: 150px;}
+	.banner_jym {height: 450px;}
+	.banner_jym button {
+		margin-top: 350px;
+		margin-right: 31%; }
+	.brands {height: 30px;}
+	.bloc {margin-left: 0px;}
+	.bloc1 {margin-left: 0px;} }
+
+/***** MEDIA (max-width: 580px) and (min-width: 320px) SHOP*****/
+@media screen and (max-width: 580px) and (min-width: 320px) {
+	.slider-nav,
+	.shop-carousel-control-prev-icon,
+	.shop-carousel-control-next-icon,
+	.supplements-carousel,
+	.caption {display: none;}
+	.caption-item {margin: 0px 0px 10px 0px;}
+	.banner_jym {height: 350px;}
+	.banner_jym button {
+		margin-right: 24%;
+		margin-top: 250px; } }
+
+/*ORDER*/
+.banner_sportswear {
+	background: url('../img/banner_sportswear.jpg') no-repeat center;
+	background-size: cover;
+	background-position: center center;
+	height: 550px;
+	margin-top: 10px; }
+
+.catalog_text {
+	font-family: "RechargeB";
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 20px; }
+
+.catalog_shop {
+	font-family: "PlayfairDR";
+	font-size: 16px;
+	color: #919191;
+	margin-top: 20px; }
+
+.name h2 {
+	float: right;
+	font-family: "RechargeB";
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 20px; }
+
+.sort {
+	font-size: 11px;
+	font-family: "PlayfairDR"; }
+
+.button_relevance {
+	margin-top: 20px;
+	cursor: pointer;
+	background-color: #ccc;
+	border: none; 
+	text-align: center;
+	border-radius: 10px;
+	font-family: "PlayfairDR";
+	font-size: 9px; }
+
+.supplements__img__item img {
+	display: block;
+	margin-top: 20px;
+	height: 120px;
+	width: auto;
+	cursor: pointer; }
+
+.supplements__item p {
+	display: block;
+	font-family: "PlayfairDR";
+	text-decoration: none; }
+
+.description {
+	color: #333;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 35px; }
+
+.price h3 {
+	font-weight: 800;
+	font-size: 16px;
+	font-family: "PlayfairDR"; }
+
+.button_view_product {
+	margin-top: 7px;
+	padding: 7px;
+	cursor: pointer;
+	background-color: #333;
+	border: none; 
+	text-align: center;
+	border-radius: 10px;
+	font-family: "PlayfairDR";
+	font-size: 13px;
+	color: #fff; }
+
+.line_shop {
+	background: #ccc;
+	height: 1px;
+	margin-top: 10px;
+	margin-bottom: 20px; }
+
+.item {margin-left: 12px;}
+
+.indentation {margin-bottom: 250px;}
+
+.banner_nutritech {margin-top: 20px;}
+
+/***** MEDIA max-width: 1199px ORDER*****/
+@media screen and (max-width: 1199px) {
+	.catalog_shop {font-size: 12px;}
+	.description {font-size: 12px;}
+	.button_view_product {
+		padding: 6px;
+		font-size: 10px;} }
+
+/***** MEDIA max-width: 1100px ORDER*****/
+@media screen and (max-width: 1100px) {
+	.supplements__img__item img {height: 100px;}
+	.sort {padding: 0px;} }
+
+/***** MEDIA max-width: 1000px ORDER*****/
+@media screen and (max-width: 1000px) {
+	.banner_sportswear {height: 250px;}
+	.sort {font-size: 9px;}
+	.name h2 {font-size: 12px;}
+	.supplements__img__item img {height: 80px;}
+	.catalog_shop { font-size: 9px;
+		margin-top: 10px;}
+	.catalog_text {font-size: 12px;}
+	.description {
+		padding: 0px;
+		font-size: 10px;}
+	.button_view_product {
+		padding: 5px;
+		font-size: 9px;
+		border-radius: 8px; }
+	.shopping {display: none;} }
+
+/***** MEDIA max-width: 812px ORDER*****/
+@media screen and (max-width: 812px) {
+	.sort {display: none;}
+	 } 
+
+/***** MEDIA max-width: 768px ORDER*****/
+@media screen and (max-width: 768px) {
+	 .supplements__img__item img {height: 60px;}
+	 .categories {margin-left: 8%;}
+	 .name {padding: 0px;}
+	 .sort {display: none;} }
+
+/***** MEDIA (max-width: 580px) and (min-width: 320px) ORDER*****/
+@media screen and (max-width: 580px) and (min-width: 320px) {
+	.phone {margin-left: 0px;}
+	.filter,
+	.banner_nutritech {display: none;}
+	.icons {margin-top: 0px;}
+	.bloc2 {margin-left: 10%;} }
+
+/*PURCHASE*/
+.product-img img {height: 260px;}
+
+.product {
+	margin-top: 15px;
+	margin-left: 50px;
+	font-family: "PlayfairDR";
+	text-align: left; }
+	.product h2 {
+		font-weight: 700;
+		font-size: 20px; }
+	.product p {
+		font-weight: 500;
+		font-size: 13px; }
+	.product a {font-size: 13px;}
+
+.quantity {
+	font-size: 14px;
+	text-align: right;
+	opacity: 0.7; }
+
+#quantity {padding-left: 30px;}
+
+.sold {
+	padding-left: 5px; 
+	font-size: 14px;
+	opacity: 0.7; }
+
+.text-caption {
+	text-align: right;
+	font-size: 12px;
+	opacity: 0.7;
+	margin-top: 10px; }
+
+#price {
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 800;
+	text-align: right; }
+
+.text {
+	margin-top: 10px;
+	font-size: 14px; }
+	.text a {font-size: 9px;}
+
+.text-description {
+	font-size: 13px;
+	margin-left: 80px;
+	opacity: 0.7; }
+
+.i-img {
+	margin-left: 15px;
+	margin-top: 5px; }
+
+.product-img-little {
+	height: 70px;
+	margin-top: 15px; }
+
+.text-quantity {
+	font-family: "PlayfairDR";
+	font-size: 11px;
+	margin-top: 40px;
+	margin-right: 20px; }
+
+#servings {
+	font-family: "PlayfairDR";
+	font-size: 14px;
+	font-weight: 800;
+	margin-top: 36px;
+	margin-bottom: 50px; }
+
+.block-inline {float: left;}
+
+.choice {
+	font-family: "PlayfairDR";
+	font-size: 12px;
+	margin-top: 15px; }
+
+.order {
+	border: #666;
+	border-radius: 5px; 
+	width: 100px;
+	margin-left: 10px;
+	padding-bottom: 3px;
+	font-family: "PlayfairDR";
+	font-size: 13px;
+	background: #666;
+	color: white;
+	float: right; }
+	.order:hover {
+		background: #333;
+		color: #fff; }
+
+.flat-form {
+	background: #ebebeb;
+	margin: 25px auto;
+	height: 700px;
+	position: relative;
+	font-family: "PlayfairDR"; }
+
+.tabs {
+	height: 48px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+	position: relative;
+	display: block;
+	margin-bottom: 40px; }
+	.tabs li {
+		display: block;
+		float: left;
+		margin: 0;
+		padding: 0; }
+	.tabs a {
+		background: #666;
+		display: block;
+		float: left;
+		text-decoration: none;
+		color: white;
+		font-size: 16px;
+		padding: 12px 22px 12px 22px; }
+	.tabs li:last-child a {
+		border-right: none;
+		width: 200px;
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center; }
+	.tabs a.active {
+		background: #333;
+		border-right: none;
+		-webkit-transition: all 0.5s linear;
+		-moz-transition: all 0.5s linear;
+		transition: all 0.5s linear; }
+
+.form-action {padding: 0 20px;}
+	.form-action a {font-size: 13px;}
+	.form-action h1 {
+		font-size: 16px;
+		padding-bottom: 10px; }
+	.form-action p {
+		font-size: 12px;
+		padding-bottom: 10px;
+		line-height: 25px; }
+
+.frame {
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	margin-left: 4%; }
+
+.specifics {
+	font-weight: 700;
+	font-family: "PlayfairDR";
+	font-size: 18px;
+	padding-top: 10px; }
+
+th, td {
+	padding: 10px;
+	vertical-align: top; }
+
+/***** MEDIA max-width: 1199px PURCHASE*****/
+@media screen and (max-width: 1199px) {
+	.product-img img {height: 180px;}
+	.product {margin-left: 0px;}
+	.choice {font-size: 10px;}
+	.order {
+		width: 90px;
+		margin-left: 0px; }
+	.flat-form {font-size: 13px;} }
+
+/***** MEDIA max-width: 1000px PURCHASE*****/
+@media screen and (max-width: 1000px) {
+	.product-img-little,
+	.text-quantity,
+	.text-price,
+	.choice,
+	.order {display: none;}
+	.product {margin-left: 40px;}
+	.tabs a {
+		font-size: 14px;
+		padding: 13px 22px 14px 22px;} }
+
+/***** MEDIA max-width: 768px PURCHASE*****/
+@media screen and (max-width: 768px) {
+	.product-img img {height: 140px;}
+	.product h2 {font-size: 16px;}
+	.quantity,
+	.text-caption,
+	.sold, 
+	.text,
+	.text-description,
+	.form-action a {font-size: 11px;}
+	.form-action h1 {font-size: 13px;}
+	.form-control {width: 70%;}
+	#quantity {
+		padding-left: 10px;
+		padding-top: 1px; }
+	.specifics {font-size: 14px;}
+	.flat-form { 
+		height: 500px;
+		font-size: 11px;} }
+
+/***** MEDIA (max-width: 580px) and (min-width: 320px) PURCHASE*****/
+@media screen and (max-width: 580px) and (min-width: 320px) {
+	.phone {margin-left: 0px;}
+	.product-img img {display: none;}
+	.product {margin-left: 0px;}
+	.flat-form {display: none;} }
